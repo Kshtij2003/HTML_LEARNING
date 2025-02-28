@@ -1,0 +1,59 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: girlroy;
+
+}
+
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#main{
+    height:100%;
+    width:100%;
+    background-color:black;
+}
+
+#nav{
+    height:100px;
+    width:100px;
+    background-color:red;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#nav-prt2{
+    display:flex;
+    background-color:blue;
+    width:45%;
+    align-items:center;
+    justify-content: space-between;
+
+
+}
+
+#nav h1{
+    font-size: 20px;
+   text-transform: capitalalize;
+   display: flex;
+   align-items: cneter; 
+}
+
+#nav>i{
+   font-size: 20px; 
+}
+
+#nav h5{
+    font-size: 14px;
+    text-transform: capitalize;
+}
+#nav image{
+   height:36px;
+   height:23px;
+   background-color: red;
+}
